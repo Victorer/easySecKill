@@ -26,7 +26,7 @@ public class TestServiceImpl implements TestService {
         Object result = null;
         Object connection = getConnection();
         result =  ((Jedis)connection).eval(ScriptUtil.getScript("SecKill.lua"),Collections.singletonList(itemId),Collections.singletonList("1"));
-        if(1 == (int)result){
+        if(1 == (Long)result){
            System.out.println("创建订单！");
         }
         else{

@@ -11,7 +11,7 @@ import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import redis.clients.jedis.JedisPoolConfig;
 
 @Configuration
-public class RedisConfig {
+public class redisConfig {
     
     @Value("${redis.limit}")
     private int limit;

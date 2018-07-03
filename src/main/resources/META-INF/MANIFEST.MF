@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Class-Path: spring-jcl-5.0.7.RELEASE.jar jackson-databind-2.9.6.jar ja
+ ckson-datatype-jdk8-2.9.6.jar netty-handler-4.1.25.Final.jar logback-
+ classic-1.2.3.jar spring-expression-5.0.7.RELEASE.jar spring-boot-sta
+ rter-2.0.3.RELEASE.jar spring-webmvc-5.0.7.RELEASE.jar slf4j-api-1.7.
+ 25.jar spring-boot-starter-logging-2.0.3.RELEASE.jar spring-oxm-5.0.7
+ .RELEASE.jar spring-boot-starter-json-2.0.3.RELEASE.jar snakeyaml-1.1
+ 9.jar netty-codec-4.1.25.Final.jar spring-boot-starter-tomcat-2.0.3.R
+ ELEASE.jar spring-rabbit-2.0.4.RELEASE.jar validation-api-2.0.1.Final
+ .jar jackson-datatype-jsr310-2.9.6.jar log4j-api-2.10.0.jar javax.ann
+ otation-api-1.3.2.jar spring-tx-5.0.7.RELEASE.jar spring-boot-starter
+ -data-redis-2.0.3.RELEASE.jar spring-messaging-5.0.7.RELEASE.jar jul-
+ to-slf4j-1.7.25.jar reactive-streams-1.0.2.jar hibernate-validator-6.
+ 0.10.Final.jar spring-data-keyvalue-2.0.8.RELEASE.jar spring-aop-5.0.
+ 7.RELEASE.jar classmate-1.3.4.jar spring-data-redis-2.0.8.RELEASE.jar
+  jboss-logging-3.3.2.Final.jar tomcat-embed-websocket-8.5.31.jar spri
+ ng-boot-autoconfigure-2.0.3.RELEASE.jar jackson-core-2.9.6.jar reacto
+ r-core-3.1.8.RELEASE.jar spring-core-5.0.7.RELEASE.jar netty-resolver
+ -4.1.25.Final.jar spring-data-commons-2.0.8.RELEASE.jar spring-web-5.
+ 0.7.RELEASE.jar tomcat-embed-core-8.5.31.jar netty-buffer-4.1.25.Fina
+ l.jar netty-transport-4.1.25.Final.jar jackson-annotations-2.9.0.jar 
+ spring-context-support-5.0.7.RELEASE.jar spring-beans-5.0.7.RELEASE.j
+ ar jedis-2.9.0.jar spring-amqp-2.0.4.RELEASE.jar logback-core-1.2.3.j
+ ar log4j-to-slf4j-2.10.0.jar spring-context-5.0.7.RELEASE.jar tomcat-
+ embed-el-8.5.31.jar lettuce-core-5.0.4.RELEASE.jar netty-common-4.1.2
+ 5.Final.jar amqp-client-5.1.2.jar spring-boot-starter-web-2.0.3.RELEA
+ SE.jar spring-boot-starter-amqp-2.0.3.RELEASE.jar spring-retry-1.2.2.
+ RELEASE.jar spring-boot-2.0.3.RELEASE.jar jackson-module-parameter-na
+ mes-2.9.6.jar commons-pool2-2.5.0.jar
+Main-Class: com.miaosha.example.DemoApplication
+

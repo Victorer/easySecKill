@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.miaosha.example.mapper.MaoyanShowMapper" >
+    <select id="selectMaoyanShow" resultType="com.miaosha.example.pojo.MaoyanShow">
+      SELECT
+          *
+		FROM
+			maoyan_show  limit 0,100
+  </select>
+</mapper>

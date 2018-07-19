@@ -14,14 +14,14 @@ import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisCluster;
-
 /**
  * Function: limit util
  *
- * @author crossoverJie
- *         Date: 22/04/2018 15:54
+ * @author
+ *
  * @since JDK 1.8
  */
+
 public class RedisLimit {
 
     private static Logger logger = LoggerFactory.getLogger(RedisLimit.class);
@@ -63,6 +63,12 @@ public class RedisLimit {
             return false;
         }
     }
+
+    /**
+     *
+     * @param connection
+     * @return
+     */
 
     private Object limitRequest(Object connection) {
         Object result = null;

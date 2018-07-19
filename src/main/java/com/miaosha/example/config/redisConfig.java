@@ -13,7 +13,7 @@ import redis.clients.jedis.JedisPoolConfig;
 @Configuration
 public class redisConfig {
     
-    @Value("${redis.limit}")
+    @Value("${limit}")
     private int limit;
     
     @Autowired

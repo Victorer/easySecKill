@@ -1,0 +1,44 @@
+server:
+  port: 8999
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: kpcx
+    password: 123456
+    virtual-host: kpcx
+  redis:
+    host: 47.98.194.60
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: -1ms
+  datasource:
+    name: springboot
+    url: jdbc:mysql://192.168.1.74:8889/kpcx_movie?allowMultiQueries=true
+    username: kpcx
+    password: lFZ"i!B_E8pug
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 6000
+    minIdle: 1
+    maxIdle: 15
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    maxPoolPreparedStatementPerConnectionSize : 20
+limit: 5
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+
